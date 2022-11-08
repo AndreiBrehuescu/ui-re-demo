@@ -1,0 +1,29 @@
+.form-input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.form-input label {
+    font-weight: 500;
+    align-self: center;
+    margin-right: 16px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+.form-footer ef-button {
+    margin-right: 10px;
+}
+
+.form-input > div {
+    width: 100%;
+}
+

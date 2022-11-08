@@ -1,0 +1,5 @@
+.grid-container {
+    display: flex;
+    width: calc(100% - 220px);
+    padding: 20px;
+}

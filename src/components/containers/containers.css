@@ -1,0 +1,83 @@
+.content-c {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-slice {
+    width: 30%;
+    height: 40%;
+    padding: 10px;
+}
+
+.chart-container-card{ 
+    width: 100%;
+    height: 100%;
+}
+.chart-container-card > ef-interactive-chart {
+    width: 100%;
+    height: 300px;
+}
+
+@keyframes resize {
+    from {
+      width: 95%;
+    }
+    to {
+      width: 60%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9ea8f4;
+    width: 100%;
+    animation: resize ease-in-out 3s alternate infinite;
+    height: 120px;
+}
+
+ef-label.animation {
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+
+hr {
+    background: #9ea8f4;
+    margin: 0px;
+    width: 100%;
+    height: 1px;
+}
+  
+.layout-size {
+    height: 120px;
+    color: blue;
+}
+
+
+.header, .footer {
+    padding: 5px;
+}
+
+.content-layout {
+    width: 100%;
+}
+
+.right, .left {
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.progress-red{
+    color: blueviolet;
+    padding: 30px;
+}
+
+ef-progress-bar .thumb {
+    position: absolute;
+    top: -8px;
+}
